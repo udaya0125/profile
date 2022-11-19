@@ -112,17 +112,33 @@ h6 {
   height: 36px;
   transition: 0.3s;
 }
+
 #header .profile .social-links a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
 }
+#header .profile .social-links .facebook {
+  color: #149ddd;
+
+  text-decoration: none;
+}
+
 #header .profile .social-links .instagram:hover {
   background: #d62976;
   text-decoration: none;
 }
+#header .profile .social-links .instagram {
+  color: #d62976;
+  text-decoration: none;
+}
 #header .profile .social-links .youtube:hover {
   background: red;
+  text-decoration: none;
+}
+#header .profile .social-links .youtube {
+  color: red;
+
   text-decoration: none;
 }
 #header .profile .social-links .tiktok:hover {
